@@ -1,6 +1,6 @@
 # Sistem Manajemen Rental Kendaraan — UTS POO
 
-Nama: Siti Fajar Hamanai
+Nama: Siti Fajar Hamani
 NIM: 22415003
 Topik: Rental Kendaraan (digit terakhir 3)
 ADT: Stack berbasis array (digit kedua terakhir 0, 0 mod 3 = 0)
