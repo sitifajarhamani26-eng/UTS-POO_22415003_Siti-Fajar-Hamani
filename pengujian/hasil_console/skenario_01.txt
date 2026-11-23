@@ -1,0 +1,51 @@
+Skenario 1: Tambah kendaraan
+Input baris demi baris:
+1
+1
+KND-04
+Mitsubishi Xpander
+Mobil
+DT 7788 GH
+450000
+7
+Exit code: 0
+Output console (stdin piped tidak ter-echo):
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): --- TAMBAH KENDARAAN ---
+1. Tambah dan tampilkan | 2. Hanya tampilkan
+Pilih: Kode Kendaraan: Nama Kendaraan: Jenis Kendaraan: Plat Nomor: Tarif Harian: Kendaraan KND-04 berhasil ditambahkan.
+--- DAFTAR ARMADA KENDARAAN ---
+Kode     | Nama Kendaraan          | Jenis   | Plat Nomor  | Tarif Harian   | Status
+KND-01   | Toyota Avanza Veloz     | Mobil   | DT 1423 AB  | Rp    350.000 | TERSEDIA
+KND-02   | Honda Brio Satya        | Mobil   | DT 1822 CD  | Rp    300.000 | TERSEDIA
+KND-03   | Yamaha NMAX 155         | Motor   | DT 3112 EF  | Rp    120.000 | TERSEDIA
+KND-06   | Suzuki Ertiga           | Mobil   | DT 6001 GH  | Rp    400.000 | TERSEDIA
+KND-07   | Daihatsu Xenia          | Mobil   | DT 7001 IJ  | Rp    275.000 | TERSEDIA
+KND-08   | Honda Vario             | Motor   | DT 8001 KL  | Rp    100.000 | TERSEDIA
+KND-04   | Mitsubishi Xpander      | Mobil   | DT 7788 GH  | Rp    450.000 | TERSEDIA
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): Program selesai.
+
+STDERR:

@@ -1,0 +1,52 @@
+Skenario 8: Stack kosong
+Input baris demi baris:
+5
+1
+5
+2
+7
+Exit code: 0
+Output console (stdin piped tidak ter-echo):
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): 1. PEEK | 2. POP/Undo | 3. Tampilkan isi/status
+Pilih operasi Stack: [ADT Stack] INFO: Stack riwayat masih kosong
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): 1. PEEK | 2. POP/Undo | 3. Tampilkan isi/status
+Pilih operasi Stack: [ADT Stack] GAGAL POP: Stack riwayat kosong
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): Program selesai.
+
+STDERR:

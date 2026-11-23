@@ -1,0 +1,46 @@
+Skenario 2: Tambah penyewa
+Input baris demi baris:
+2
+1
+PNY-03
+Rahmawati Putri
+DEMO000003
+080000000003
+7
+Exit code: 0
+Output console (stdin piped tidak ter-echo):
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): --- TAMBAH PENYEWA ---
+1. Tambah dan tampilkan | 2. Hanya tampilkan
+Pilih: ID Penyewa: Nama Lengkap: Nomor Identitas: Nomor Telepon: Penyewa PNY-03 berhasil didaftarkan.
+--- DAFTAR PENYEWA ---
+ID       | Nama Lengkap            | Nomor Identitas    | Telepon        | Status   | Transaksi Aktif
+PNY-01   | Siti Fajar Hamanai      | DEMO000001         | 080000000001   | AKTIF    | 0
+PNY-02   | Ahmad Fauzan            | DEMO000002         | 080000000002   | AKTIF    | 0
+PNY-03   | Rahmawati Putri         | DEMO000003         | 080000000003   | AKTIF    | 0
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): Program selesai.
+
+STDERR:

@@ -1,0 +1,99 @@
+Skenario 3: Sewa tarif dan status
+Input baris demi baris:
+3
+SEW-001
+KND-01
+PNY-01
+2
+1
+2
+5
+3
+7
+Exit code: 0
+Output console (stdin piped tidak ter-echo):
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): --- BUAT TRANSAKSI PENYEWAAN BARU ---
+--- DAFTAR ARMADA KENDARAAN ---
+Kode     | Nama Kendaraan          | Jenis   | Plat Nomor  | Tarif Harian   | Status
+KND-01   | Toyota Avanza Veloz     | Mobil   | DT 1423 AB  | Rp    350.000 | TERSEDIA
+KND-02   | Honda Brio Satya        | Mobil   | DT 1822 CD  | Rp    300.000 | TERSEDIA
+KND-03   | Yamaha NMAX 155         | Motor   | DT 3112 EF  | Rp    120.000 | TERSEDIA
+KND-06   | Suzuki Ertiga           | Mobil   | DT 6001 GH  | Rp    400.000 | TERSEDIA
+KND-07   | Daihatsu Xenia          | Mobil   | DT 7001 IJ  | Rp    275.000 | TERSEDIA
+KND-08   | Honda Vario             | Motor   | DT 8001 KL  | Rp    100.000 | TERSEDIA
+--- DAFTAR PENYEWA ---
+ID       | Nama Lengkap            | Nomor Identitas    | Telepon        | Status   | Transaksi Aktif
+PNY-01   | Siti Fajar Hamanai      | DEMO000001         | 080000000001   | AKTIF    | 0
+PNY-02   | Ahmad Fauzan            | DEMO000002         | 080000000002   | AKTIF    | 0
+Masukkan Kode Transaksi (misal SEW-001): Masukkan Kode Kendaraan: Masukkan ID Penyewa: Masukkan Lama Sewa (hari): [TRANSAKSI BERHASIL]
+Kode Transaksi : SEW-001
+Kendaraan      : Toyota Avanza Veloz (DT 1423 AB)
+Penyewa        : Siti Fajar Hamanai
+Durasi         : 2 hari
+Total Biaya    : Rp 700.000 (Tarif Rp 350.000 x 2 hari)
+Info ADT       : Transaksi otomatis di-PUSH ke Stack riwayat.
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): --- TAMBAH KENDARAAN ---
+1. Tambah dan tampilkan | 2. Hanya tampilkan
+Pilih: --- DAFTAR ARMADA KENDARAAN ---
+Kode     | Nama Kendaraan          | Jenis   | Plat Nomor  | Tarif Harian   | Status
+KND-01   | Toyota Avanza Veloz     | Mobil   | DT 1423 AB  | Rp    350.000 | SEDANG DISEWA
+KND-02   | Honda Brio Satya        | Mobil   | DT 1822 CD  | Rp    300.000 | TERSEDIA
+KND-03   | Yamaha NMAX 155         | Motor   | DT 3112 EF  | Rp    120.000 | TERSEDIA
+KND-06   | Suzuki Ertiga           | Mobil   | DT 6001 GH  | Rp    400.000 | TERSEDIA
+KND-07   | Daihatsu Xenia          | Mobil   | DT 7001 IJ  | Rp    275.000 | TERSEDIA
+KND-08   | Honda Vario             | Motor   | DT 8001 KL  | Rp    100.000 | TERSEDIA
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): 1. PEEK | 2. POP/Undo | 3. Tampilkan isi/status
+Pilih operasi Stack: === ISI ADT STACK RIWAYAT TRANSAKSI SEWA (LIFO) ===
+Status Kapasitas: 1 / 5 | isEmpty=false | isFull=false
+TOP -> SEW-001  | Toyota Avanza Veloz      | Siti Fajar Hamanai      |  2 hari | Rp     700.000 | AKTIF
+
+=======================================================
+   SISTEM MANAJEMEN RENTAL KENDARAAN (ADT: STACK)
+   Mahasiswa: Siti Fajar Hamanai | NIM: 22415003
+=======================================================
+1. Tambah / tampil kendaraan
+2. Tambah / tampil penyewa
+3. Buat transaksi sewa
+4. Cari data
+5. Operasi Stack (status, peek, pop)
+6. Tampilkan ringkasan laporan
+7. Keluar
+Pilih menu (1-7): Program selesai.
+
+STDERR:
